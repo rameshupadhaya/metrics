@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Performance Metrics | Elegant Dashboard</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="A modern, Apple-inspired performance dashboard for visualizing API and operation metrics with elegant animations and real-time statistics.">
+    <meta name="keywords" content="performance dashboard, metrics visualization, API performance, performance monitoring, data visualization">
+    <meta name="author" content="JustMVP">
+    <link rel="canonical" href="https://metrics.justmvp.io">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://metrics.justmvp.io">
+    <meta property="og:title" content="Performance Metrics | Elegant Dashboard">
+    <meta property="og:description" content="A modern, Apple-inspired dashboard for visualizing and tracking performance improvements across APIs and operations.">
+    <meta property="og:image" content="https://placehold.co/800x400/000000/FFF?text=Performance%20Dashboard">
+    <meta property="og:image:width" content="800">
+    <meta property="og:image:height" content="400">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://metrics.justmvp.io">
+    <meta property="twitter:title" content="Performance Metrics | Elegant Dashboard">
+    <meta property="twitter:description" content="A modern, Apple-inspired dashboard for visualizing and tracking performance improvements across APIs and operations.">
+    <meta property="twitter:image" content="https://placehold.co/800x400/000000/FFF?text=Performance%20Dashboard">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/modal.css">
+    
+    <!-- Structured Data for SEO -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "Metrics Performance Dashboard",
+      "applicationCategory": "BusinessApplication",
+      "operatingSystem": "Web",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "description": "A modern, Apple-inspired performance dashboard for visualizing API and operation metrics with elegant animations and real-time statistics.",
+      "url": "https://metrics.justmvp.io",
+      "author": {
+        "@type": "Organization",
+        "name": "JustMVP"
+      },
+      "screenshot": "https://placehold.co/800x400/000000/FFF?text=Performance%20Dashboard",
+      "featureList": "Dynamic Performance Cards, Interactive Animations, Responsive Design, Real-time Statistics, Dark Mode"
+    }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <header class="fade-in">
+            <h1 class="headline">Performance Metrics</h1>
+            <p class="subheadline">Visualizing significant improvements in performance and efficiency across key operations.</p>
+        </header>
+
+        <div class="stats-highlight fade-in" id="summaryStats">
+            <!-- Summary statistics will be generated dynamically -->
+        </div>
+
+        <div class="perf-grid" id="perfGrid">
+            <!-- Performance cards will be generated here -->
+        </div>
+
+        <div class="gradient-divider"></div>
+
+        <button id="addPerformanceBtn" class="floating-button">+</button>
+
+        <div id="performanceModal" class="modal">
+            <div class="modal-content">
+                <span class="close-button">&times;</span>
+                <h2>Add Performance Metric</h2>
+                <form id="performanceForm">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" required>
+                    <label for="before">Before Time:</label>
+                    <input type="number" id="before" required>
+                    <label for="after">After Time:</label>
+                    <input type="number" id="after" required>
+                    <label for="unit">Time Unit:</label>
+                    <input type="text" id="unit" required>
+                    <button type="submit">Add Metric</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>Performance Report © May 2025</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/chart.js"></script>
+    <script src="js/modal.js"></script>
+</body>
+</html>

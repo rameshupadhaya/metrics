@@ -1,0 +1,6 @@
+# robots.txt for Performance Dashboard
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://metrics.justmvp.io/sitemap.xml
