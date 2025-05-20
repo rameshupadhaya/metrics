@@ -25,16 +25,6 @@ Metrics is a modern, Apple-inspired web application built with Preact for visual
 - **Dark Mode**: Elegant dark theme for reduced eye strain and modern aesthetics
 - **Performance Optimized**: Lightweight Preact implementation ensures fast loading and rendering
 
-## Screenshots
-
-### Dashboard View
-
-![Dashboard View](https://placehold.co/800x400/000000/FFF?text=Dashboard+View)
-
-### Add Metric Modal
-
-![Add Metric Modal](https://placehold.co/800x400/000000/FFF?text=Add+Metric+Modal)
-
 ## Technologies Used
 
 - **Preact**: A fast 3KB alternative to React with the same modern API
